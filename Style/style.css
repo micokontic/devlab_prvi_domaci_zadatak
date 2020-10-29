@@ -5,7 +5,9 @@ p {
 	padding: 0;
 	margin: 0;
 }
-
+body {
+	background-color: #fbfcfd;
+}
 .section-6 {
 	height: auto;
 	background-color: #f8f8f8;
@@ -171,6 +173,7 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #fbfcfd;
 }
 .section-8 .content {
 	text-align: center;
@@ -237,6 +240,7 @@ p {
 }
 .section-9 {
 	width: 100%;
+	background-color: #fbfcfd;
 }
 .section-9 .logos {
 	width: 80%;
@@ -253,7 +257,48 @@ p {
 	align-items: center;
 }
 .section-9 .logo img {
-	width: 60%;
+	width: 80%;
+}
+footer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.footer-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+footer .footer-left p {
+	color: #747474;
+	font-size: 1rem;
+	width: 80%;
+	margin: 0 auto;
+	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+footer h4 {
+	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	color: #747474;
+	font-size: 1.3rem;
+	font-weight: 490;
+}
+footer p {
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+	color: #4b647e;
+	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-weight: 400;
+}
+.rights-reserved p {
+	margin: 5vh 0;
+	font-size: 0.7rem;
+	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	color: #969ca2;
 }
 @media only screen and (min-width: 800px) {
 	html {
@@ -285,13 +330,44 @@ p {
 		margin: 0 auto;
 	}
 	.section-8 .img-arrow {
-		width: 15%;
+		width: 13%;
 	}
 	.section-9 .logos {
 		width: 60%;
 	}
 	.section-9 .logos {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.footer-container {
+		width: 60%;
+		margin: 0 auto;
+		grid-template-columns: 2fr 1fr 1fr 1fr;
+		justify-content: start;
+		text-align: left;
+		align-items: start;
+	}
+	.footer-container > div {
+		margin-left: 7%;
+	}
+	footer h4 {
+		margin-top: 0;
+	}
+	footer p {
+		line-height: 4rem;
+	}
+	footer .footer-left p {
+		margin-top: 2vh;
+		margin-left: 0;
+		line-height: 2rem;
+	}
+	.rights-reserved p {
+		text-align: left;
+		margin-left: 22%;
+		font-size: 1rem;
+	}
+	footer .p-container p {
+		font-size: 1.3rem;
+		line-height: 3rem;
 	}
 }
 
