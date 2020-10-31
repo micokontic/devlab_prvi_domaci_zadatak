@@ -1,13 +1,20 @@
 html,
-body,
-h3,
-p {
+body{
 	padding: 0;
 	margin: 0;
 }
-body {
+
+/*SECOND HALF */
+
+.second-section h3,p{
+	padding: 0;
+	margin: 0;
+}
+.second-section {
 	background-color: #fbfcfd;
 }
+/*SECTION 6 */
+
 .section-6 {
 	height: auto;
 	background-color: #f8f8f8;
@@ -15,6 +22,7 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
 .section-6 .cards {
 	padding: 10vh 10vw;
 	width: 100%;
@@ -24,6 +32,7 @@ body {
 	align-items: center;
 	gap: 5vh 0;
 }
+
 .section-6 .card {
 	width: 70%;
 	height: 31vh;
@@ -32,6 +41,7 @@ body {
 	background-repeat: no-repeat;
 	border-radius: 1.5vh;
 }
+
 .section-6 .card {
 	color: white;
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -41,16 +51,19 @@ body {
 	flex-direction: column;
 	padding-left: 17%;
 }
+
 .section-6 .card img {
 	padding-bottom: 1.5vh;
 	width: 25%;
 	height: auto;
 }
+
 .section-6 .card h3 {
 	font-size: 2rem;
 	padding: 0.5vh 0;
 	font-weight: 380;
 }
+
 .section-6 .card p {
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 1.2rem;
@@ -64,14 +77,18 @@ body {
 	background-image: url("../images/section-6-left-image.svg");
 	box-shadow: inset 0 0 0 1000px rgba(19, 27, 124, 0.9);
 }
+
 .section-6 .card-center {
 	background-image: url("../images/section-6-center-image.svg");
 	box-shadow: inset 0 0 0 1000px rgba(243, 111, 33, 0.8);
 }
+
 .section-6 .card-right {
 	background-image: url("../images/section-6-right-image.svg");
 	box-shadow: inset 0 0 0 1000px rgba(165, 162, 246, 0.8);
 }
+/*SECTION 7 */
+
 .section-7 {
 	background-color: #fbfcfd;
 	width: 100%;
@@ -82,24 +99,29 @@ body {
 	align-items: center;
 	padding-top: 10vh;
 }
+
 .section-7 img {
 	width: 80%;
 	display: flex;
 }
+
 .section-7 .flow {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-top: 4vh;
 }
+
 .section-7 .flow-item {
 	margin: 4%;
 	display: grid;
 	grid-template-columns: 20% 80%;
 }
+
 .section-7 .flow-item-content {
 	margin-left: 2vw;
 }
-.round {
+
+.section-7 .round {
 	width: 4rem;
 	height: 4rem;
 	border-radius: 50%;
@@ -113,51 +135,65 @@ body {
 	align-self: start;
 	justify-self: center;
 }
-.round1 {
+
+.section-7 .round1 {
 	background-color: #3d37f1;
 }
-.round2 {
+
+.section-7 .round2 {
 	background-color: #9997df;
 }
-.round3 {
+
+.section-7 .round3 {
 	background-color: #ffba3f;
 }
-.round4 {
+
+.section-7 .round4 {
 	background-color: #e66e6e;
 }
-.round5 {
+
+.section-7 .round5 {
 	background-color: #66659f;
 }
-.round6 {
+
+.section-7 .round6 {
 	background-color: #f17637;
 }
-.round7 {
+
+.section-7 .round7 {
 	background-color: #37f1be;
 }
-.round8 {
+
+.section-7 .round8 {
 	background-color: #f137e5;
 }
-.round9 {
+
+.section-7 .round9 {
 	background-color: #f13d37;
 }
+
 .section-7 .content {
 	color: #747474;
 }
+
 .section-7 .content h4 {
 	font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	color: #5a5454;
 	font-size: 1.5rem;
 	margin-left: 5vw;
 }
+
 .section-7 .content p {
 	font-size: 1.3rem;
 	margin-left: 5vw;
 }
+
 .section-7 .flow-item h4 {
 	margin: 0;
 	font-size: 1.7rem;
 	font-weight: 400;
 }
+
 .section-7 .flow-item p {
 	margin: 0;
 	font-size: 0.7rem;
@@ -166,6 +202,8 @@ body {
 	margin-left: 0;
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+/*SECTION 8 */
+
 .section-8 {
 	width: 100%;
 	height: auto;
@@ -175,10 +213,12 @@ body {
 	align-items: center;
 	background-color: #fbfcfd;
 }
+
 .section-8 .content {
 	text-align: center;
 	width: 80%;
 }
+
 .section-8 h2 {
 	font-size: 3rem;
 	color: #5a5454;
@@ -186,6 +226,7 @@ body {
 	font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	margin: 1.5rem 0;
 }
+
 .section-8 .cards {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -193,6 +234,7 @@ body {
 	align-items: center;
 	width: 80%;
 }
+
 .section-8 .card {
 	width: 85%;
 	display: flex;
@@ -203,17 +245,20 @@ body {
 	margin: 0.7rem;
 	justify-self: center;
 }
+
 .section-8 .img-header {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
 }
+
 .section-8 .img-arrow {
 	align-self: start;
 	padding: 8%;
 	padding-left: 0;
 	width: 8%;
 }
+
 .section-8 .content p {
 	font-size: 1rem;
 	padding-bottom: 4rem;
@@ -221,6 +266,7 @@ body {
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	color: #747474;
 }
+
 .section-8 h5 {
 	font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-weight: bold;
@@ -228,6 +274,7 @@ body {
 	margin-bottom: 1rem;
 	color: #5a5454;
 }
+
 .section-8 .card p {
 	font-size: 1rem;
 	padding-top: 1rem;
@@ -235,13 +282,16 @@ body {
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	color: #747474;
 }
+
 .section-8 .card-content {
 	margin-left: 10%;
 }
+/*SECTION 9 */
 .section-9 {
 	width: 100%;
 	background-color: #fbfcfd;
 }
+
 .section-9 .logos {
 	width: 80%;
 	height: auto;
@@ -251,14 +301,17 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 .section-9 .logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .section-9 .logo img {
 	width: 80%;
 }
+
 footer {
 	width: 100%;
 	display: grid;
@@ -267,6 +320,7 @@ footer {
 	align-items: center;
 	text-align: center;
 }
+
 .footer-container {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -274,6 +328,7 @@ footer {
 	align-items: center;
 	text-align: center;
 }
+
 footer .footer-left p {
 	color: #747474;
 	font-size: 1rem;
@@ -281,12 +336,14 @@ footer .footer-left p {
 	margin: 0 auto;
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 footer h4 {
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	color: #747474;
 	font-size: 1.3rem;
 	font-weight: 490;
 }
+
 footer p {
 	font-size: 0.9rem;
 	line-height: 1.6rem;
@@ -294,51 +351,71 @@ footer p {
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	font-weight: 400;
 }
-.rights-reserved p {
-	margin: 5vh 0;
+
+footer .rights-reserved p {
+	margin: 2.5vh 0;
+	margin-bottom: 1vh;
 	font-size: 0.7rem;
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	color: #969ca2;
 }
+
 @media only screen and (min-width: 800px) {
-	html {
+	html{
 		font-size: 10px;
 	}
 	.section-6 .cards {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		justify-content: space-around;
 	}
+
 	.section-6 .card-left {
 		grid-column: 2;
 	}
+
 	.section-6 .card-center {
 		grid-column: 3;
 	}
+
 	.section-6 .card-right {
 		grid-column: 4;
 	}
+
 	.section-7 .flow {
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.section-7 .content h4{
+		margin-left: 0;
+	}
+
+	.section-7 .content p{
+		margin-left: 0;
 	}
 	.section-8 .cards {
 		grid-template-columns: 1fr 1fr 1fr;
 		width: 60%;
 	}
+
 	.section-8 .content p {
 		width: 30%;
 		text-align: center;
 		margin: 0 auto;
 	}
+
 	.section-8 .img-arrow {
 		width: 13%;
 	}
+
 	.section-9 .logos {
 		width: 60%;
 	}
+
 	.section-9 .logos {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
-	.footer-container {
+
+	footer .footer-container {
 		width: 60%;
 		margin: 0 auto;
 		grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -346,25 +423,31 @@ footer p {
 		text-align: left;
 		align-items: start;
 	}
-	.footer-container > div {
+
+	footer .footer-container>div {
 		margin-left: 7%;
 	}
+
 	footer h4 {
 		margin-top: 0;
 	}
+
 	footer p {
 		line-height: 4rem;
 	}
+
 	footer .footer-left p {
 		margin-top: 2vh;
 		margin-left: 0;
 		line-height: 2rem;
 	}
-	.rights-reserved p {
+
+	footer .rights-reserved p {
 		text-align: left;
 		margin-left: 22%;
 		font-size: 1rem;
 	}
+
 	footer .p-container p {
 		font-size: 1.3rem;
 		line-height: 3rem;
@@ -372,29 +455,31 @@ footer p {
 }
 
 @media only screen and (min-width: 1200px) {
-	html {
-		font-size: 10px;
-	}
+
 	.section-7 {
 		flex-direction: row;
 		justify-content: center;
 		margin: 0 auto;
 		width: 70%;
 	}
+
 	.section-7 img {
 		width: 55%;
 		align-self: start;
 	}
+
 	.section-7 .content {
 		padding: 0 1vw;
 	}
-	.content h4 {
+
+	.section-7 .content h4 {
 		margin-left: 1vw;
 	}
-	.flow-item-content {
+	.section-7 .content p{
+		margin-left: 1vw;
+	}
+
+	.section-7 .flow-item-content {
 		margin-left: 0.5vw;
-	}
-	.content p {
-		margin-left: 1vw;
 	}
 }
