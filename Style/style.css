@@ -49,7 +49,7 @@ body{
 }
 
 .main-image:hover{
-	-webkit-animation: spin 1s 1 forwards;
+	animation: spin 1s 1 forwards;
 
 }
 @-moz-keyframes spin {
