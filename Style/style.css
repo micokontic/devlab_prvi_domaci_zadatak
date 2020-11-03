@@ -1,12 +1,564 @@
-html,
-body{
+.first5sections {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.first5sections h1 {
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.first5sections h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.first5sections p {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+/*navbar*/
+.bg-img {
+    background-image:url("../images/Path\ 1361.svg");
+    min-height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   margin-top: -20px;
+  }
+  .navbarcontainer {
+    width: auto;
+  }
+ 
+.topnav.responsive {position: relative;}
+    .topnav.responsive a.navbaricon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      font-family: 'Roboto';
+      color: white;
+    }
+    .topnav a{
+        display: none;}
+    .topnav a.navbaricon {
+      float: right;
+      display: block;
+    }
+    .navbaricon i{
+        color: black;
+        
+    }
+    
+    .navbaricon{
+        border-radius: 30px;
+    }
+   
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        color: black;
+      }
+      .topnav a {
+        background-color: #A5A2F6;
+        color: white;
+      }
+      .topnav a.active {
+        background-color: #8a86fc;
+        color: white;
+      }
+      .topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:nth-child(6){
+          background-color: #FF8923;
+       
+          color: white;}
+
+/*landing*/
+.section1{
+    margin-top: 50px;
+}
+.landingtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.landing .btn {
+    background-color: #3D37F1;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    box-shadow: 1px 1px 20px 1px #3D37F1;
+    font-size: 1rem;
+}
+
+.landing img {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.landing h1 {
+    font-weight: 700;
+    color: #534D4D;
+}
+
+/*section2*/
+.section2 {
+    margin-top: 100px;
+}
+
+#section2 .servicesText h5 {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color:#3D37F1;
+}
+
+#section2 .servicesText p {
+    color: black;
+    text-align: justify;
+}
+
+#section2 .servicesCards h1, .first5sections p {
+    color: white;
+}
+#section2 .servicesText {
+    text-align: center;
+}
+#section2 .servicesText p{
+    text-align: center;
+}
+
+#section2 .card1 {
+    background-color: #FBBA77;
+}
+
+#section2 .card2 {
+    background-color: #41EAE3;
+}
+
+#section2 .card3 {
+    background-color: #69529F;
+}
+
+#section2 .card4 {
+    background-color: #4386D2;
+}
+
+#section2 .card5 {
+    background-color: #A5A2F6;
+}
+
+#section2 .card6 {
+    background-color: #FF8088;
+}
+
+#section2 .cardcontent img {
+    width: 120px;
+    height: auto;
+}
+
+#section2 .cardcontent {
+    padding: 50px 30px 80px 30px;
+    text-align: center;
+}
+
+#section2 .cardcontent a {
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: white;
+
+}
+
+#section2 .servicesCards {
+    margin: 30px;
+}
+
+#section2 .card1,
+#section2 .card2,
+#section2 .card3,
+#section2 .card4,
+#section2 .card5,
+#section2 .card6 {
+    margin-bottom: 30px;
+}
+
+/*section3*/
+
+.section3 {
+    margin-top: 100px;
+}
+
+.section3 p {
+    color: black;
+}
+
+#section3 .btnPlay {
+    display: flex;
+}
+.section3text h1{
+    font-weight: 700;
+    color: #5A5454;
+}
+
+#section3 .btnPlay p {
+    margin-left: 10px ;
+    margin-top: 25px;
+
+}
+
+
+/*section 4*/
+#section4 .bar .active{
+    color:#3D37F1;
+    border-bottom: 1px solid #3D37F1;
+}
+.section4Tabs {
+    text-align: center;
+}
+
+.section4Text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section4Text h1 {
+    font-weight: 700;
+    color: #5A5454;
+}
+
+#section4 .bar-item {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+#section4 .bar-item:active{
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
+
+#section4 .bar-item:hover {
+    cursor: pointer;
+    color: #3D37F1;
+    border-bottom: 1.5px solid #3D37F1;
+}
+
+#section4 .bar {
+    text-align: center;
+}
+
+/*section 5*/
+
+
+.section5text {
+    text-align: center;
+}
+
+.section5 h1 {
+    font-weight: 700;
+}
+
+#section5 .box1-inner {
+    padding: 40px 50px;
+    border-radius: 30px;
+    background-color: #AF94FD;
+    display: inline-block;
+}
+
+#section5 .box2-inner {
+    padding: 40px 60px;
+    border-radius: 30px;
+    background-color: #FF95A5;
+    display: inline-block;
+}
+
+#section5 .box3-inner {
+    padding: 40px 60px;
+    border-radius: 30px;
+    background-color: #FBC9A4;
+    display: inline-block;
+}
+
+#section5 .box1 {
+    padding: 10px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.096);
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+#section5 .boxes h1 {
+    color: white;
+}
+
+/*TABLET */
+@media (min-width:500px){
+    .section1{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+    }
+    .landing-text-inner{
+        text-align: left;
+    }
+
+   #section2 .cards{
+        width: 50%;
+    }
+    #section2 .servicesCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+	}
+	/*Mico added to maintain rem unit ratio*/
+	#section4 .bar-item{
+		font-size: 1.6rem ;
+	}
+	#section2 .servicesText h5{
+		font-size: 1.6rem;
+	}
+	.landing .btn{
+		font-size: 1.6rem;
+	}
+
+}
+@media(min-width:1024px) {
+
+    /*navbar*/
+    .bg-img {
+        min-height:380px;
+        left:120px;
+        
+    }
+    .topnav {
+       float: right;
+       margin-right:20%;
+       margin-top: 75px;
+      }
+    
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: transparent;
+        font-family: 'Roboto';
+        font-weight: 700;
+        text-shadow: 1px 1px 6px rgba(226, 226, 226, 0.486);
+      
+        
+      }
+     
+      .topnav a:nth-child(6){
+          border-radius: 30px;
+          padding: 10px 30px 10px 30px;
+      }
+      
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        color: rgb(224, 224, 224);
+      }
+      
+      /* Add an active class to highlight the current page */
+      .topnav a.active {
+        border-bottom: 1px solid #3D37F1;
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+      }
+      
+      /* Hide the link that should open and close the topnav on small screens */
+      .topnav .navbaricon {
+        display: none!important;
+      }
+ 
+    /*landing*/
+    .section1 {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        margin-left: 15%;
+    
+    }
+
+    .landingtext {
+        text-align: left;
+        margin-top: -100px;
+       
+    }
+
+   
+
+    .landing-text-inner h1 {
+        font-size: 7.2rem;
+
+    }
+
+    .landing img {
+        height: 350px;
+        width: auto;
+    }
+
+    /*section2*/
+   #section2 .servicesCards {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+    }
+
+    .section2 {
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    #section2 .cards {
+        width: 30%;
+    }
+
+    /*section3*/
+    .section3 {
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    .section3content {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .section3text {
+        margin: 100px 0px 0px 100px;
+        
+    }
+
+    /*section4*/
+    
+    .section4Text {
+        grid-area: "leftText"; 
+    }
+
+    #section4 .bar{
+        grid-area: "leftBar";
+    }
+    #section4 .bar button{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+   
+
+    .section4images {
+        grid-area: rightImages;
+    }
+
+    #section4 .leftSide{
+       
+        margin: 0px auto;
+    }
+    #section4 .leftSideinner h1, .leftSideinner h3{
+        text-align: left;
+    }
+    #section4 .bar{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        flex-direction: column;
+       
+     }
+     #section4 .bar button{
+         margin-top: 30px;
+     }
+    
+    #section4 .leftSideinner{
+        width: 100%;
+    }
+   
+    .section4 {
+        margin:100px auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "leftText rightImages"
+            "leftBar rightImages"
+            ".  rightImages";
+    }
+    #section4 .portfolio{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+   #section4  .portfolio img{
+        width: 49%;
+    }
+    /*section5*/
+    .section5 {
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+        
+    }
+
+    #section5 .boxes {
+        display: flex;
+        justify-content: center;
+
+    }
+    .section5 .box1 {
+        padding: 50px;
+        margin: 20px;
+    }
+
+}
+
+
+
+html{
 	padding: 0;
 	margin: 0;
 }
 
 /*SECOND HALF */
 
-.second-half-section h3,p{
+.second-half-section h3, .second-half-section p{
 	padding: 0;
 	margin: 0;
 }
@@ -19,6 +571,7 @@ body{
 /*MIDDLE SECTION*/
 .middle-section{
 	padding-top: 10vh;
+	margin-top: 10vh;
 	width: 100%;
 	background-color: #0C0F32;
 	color: white;
@@ -27,7 +580,7 @@ body{
 	justify-content: center;
 	flex-direction: column;
 	font-family: Roboto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-	
+	position:relative;
 }
 
 .middle-section .person{
@@ -619,9 +1172,9 @@ footer .rights-reserved p {
 	color: #969ca2;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 500px) {
 
-	html{
+	html {
 		font-size: 10px;
 	}
 	.middle-section .round h1{
@@ -772,7 +1325,7 @@ footer .rights-reserved p {
 	
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
 
 	.section-7 {
 		flex-direction: row;
