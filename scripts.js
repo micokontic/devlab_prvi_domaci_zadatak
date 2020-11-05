@@ -6,7 +6,9 @@ function openPortfolio(cityName) {
     }
     document.getElementById(cityName).style.display = "block";
   }
-
+function regulateElements(cityName){
+  document.getElementById(cityName).style.display = "block"
+}
   
   function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -26,8 +28,11 @@ var btns = btnContainer.getElementsByClassName("bar-item");
 // Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+    
+    var current = document.querySelectorAll(("#bar .active"));
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
 }
+
+

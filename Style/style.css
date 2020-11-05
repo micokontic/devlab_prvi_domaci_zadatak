@@ -1,3 +1,8 @@
+html,body{
+	margin:0;
+	padding: 0;
+}
+
 .first5sections {
     box-sizing: border-box;
     overflow-x: hidden;
@@ -13,7 +18,8 @@
 
 .first5sections h3 {
     font-family: 'Roboto';
-    font-weight: 400;
+	font-weight: 400;
+	padding-bottom: 2vh;
 }
 
 .first5sections p {
@@ -29,7 +35,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-   margin-top: -20px;
+   margin-top: -7px;
   }
   .navbarcontainer {
     width: auto;
@@ -109,6 +115,14 @@
     font-family: 'Roboto';
     box-shadow: 1px 1px 20px 1px #3D37F1;
     font-size: 1rem;
+}
+
+.landing .btn:hover{
+	transform: scale(1.1);
+	background-color: #FF992E;
+	-webkit-box-shadow: 6px 13px 120px 1px rgba(255,153,46,0.42);
+-moz-box-shadow: 6px 13px 120px 1px rgba(255,153,46,0.42);
+box-shadow: 6px 13px 120px 1px rgba(255,153,46,0.42);
 }
 
 .landing img {
@@ -232,8 +246,16 @@
 /*section 4*/
 #section4 .bar .active{
     color:#3D37F1;
-    border-bottom: 1px solid #3D37F1;
+    border-bottom: 3px solid #3D37F1;
 }
+
+#section4 .bar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
 .section4Tabs {
     text-align: center;
 }
@@ -253,7 +275,10 @@
     border: none;
     display: inline-block;
     font-size: 1rem;
-    font-family: 'Roboto';
+	font-family: 'Roboto';
+	padding: 2.5%;
+	color: #969CA2;
+	outline:none;
 }
 #section4 .bar-item:active{
     color: black;
@@ -265,7 +290,7 @@
 #section4 .bar-item:hover {
     cursor: pointer;
     color: #3D37F1;
-    border-bottom: 1.5px solid #3D37F1;
+    border-bottom: 3px solid #3D37F1;
 }
 
 #section4 .bar {
@@ -309,9 +334,8 @@
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.096);
     text-align: center;
     border-radius: 30px;
-    margin: 30px;
     width: 50%;
-    margin: auto;
+    margin: 30px auto;
 }
 
 #section5 .boxes h1 {
@@ -347,6 +371,10 @@
 	}
 	.landing .btn{
 		font-size: 1.6rem;
+	}
+	#section5 .box1 {
+	
+		margin: 30px;
 	}
 
 }
@@ -479,7 +507,7 @@
     #section4 .bar button{
         display: block;
         text-align: center;
-        margin: auto;
+        text-align: left;
     }
    
 
