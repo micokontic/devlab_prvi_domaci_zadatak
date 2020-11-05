@@ -376,7 +376,11 @@ box-shadow: 6px 13px 120px 1px rgba(255,153,46,0.42);
 	
 		margin: 30px;
 	}
+	#section5 .boxes {
+        display: flex;
+        justify-content: center;
 
+    }
 }
 @media(min-width:1024px) {
 
