@@ -733,7 +733,7 @@ html{
 	justify-content: center;
 	align-items: center;
 }
-.middle-section .round h1{
+.middle-section .round h3{
 	font-size: 0.8rem;
 	font-weight: 500;
 }
@@ -1205,7 +1205,7 @@ footer .rights-reserved p {
 	html {
 		font-size: 10px;
 	}
-	.middle-section .round h1{
+	.middle-section .round h3{
 		font-size: 1.5rem;
 	}
 
